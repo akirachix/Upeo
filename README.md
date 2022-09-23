@@ -9,7 +9,7 @@ How Might we support pregnant teenage girls in Northern Uganda continue their ed
 
 ****#About Project****
 
-This project is an Interactive Offline learning channel that is aimed to provide the students with revision questions while at home throughout their maternity period inorder for them to keep track on different topics in different subjects and not forget whatever was taught previously in school before they dropped out.This helps most of the students in that when they get back to school they do not start from scratch but assume that they have been learning as well and continue with the rest of the students without lagging behind .
+This project is an learning channel that is aimed to provide the dropout teenage girls with revision questions while at home throughout their maternity period inorder for them to keep track on different topics in mathematics. This will helps most of the students to continue learning in that when they get back to school they do not start from scratch but assume that they have been learning as well and continue with the rest of the students without lagging behind .
 
 **#Objectives of our our Research**
 
