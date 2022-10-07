@@ -26,8 +26,9 @@ SECRET_KEY = 'django-insecure-q97@m($g^)1-=o=$facxxya_j&13qb(z(-iaf+sryax7vmhk=9
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '197-232-143-191.eu.ngrok.io',
-    '127.0.0.1'
+    '6260-197-232-51-151.eu.ngrok.io',
+    '127.0.0.1',
+    
 ]
 
 
@@ -131,6 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
