@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import Main from './students';
 import './App.css';
-import Quiz from './questions';
+// import Quiz from './questions';
 
 function App() {
   return (
