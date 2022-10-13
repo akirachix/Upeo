@@ -1,0 +1,95 @@
+body{
+    width:90%;
+    text-align: center;
+    overflow-x: hidden;
+  }  
+  
+  .topnav a {
+      padding: 20px 20px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: -10px;
+      margin: 10px;
+  
+      
+    } 
+    .topnav a:hover {
+      background-color: #02C0DA;
+      color: black;
+    }
+    .topnav a.active {
+      background-color: #04AA6D;
+      /* color: white; */
+      color: black;
+    
+    }
+    .topnav a{
+      display: block;
+      margin-left: -50px;
+      /* padding: 25px; */
+      color: black;
+      
+    }
+    .topnav{
+      margin-left: 50px;
+      padding: 40px;
+    }
+
+.logo{
+  margin-right: -20px;
+}    
+
+.container {
+  margin: 170px;
+  background-color:#02C0DA;
+  border-radius: 10px;
+  padding: 50px;
+  height: 700px;
+  width: 1200px;
+  margin-left: 10px;
+
+}
+.inner-container{
+  background-color:white;
+  width: 250px;
+  height:800px;
+  margin-left: -50px;
+  margin-top: -50px;
+  border: 1px solid black;
+}
+
+.txt-fld label input {
+    display: flex;
+    margin: 30px;
+    border: 2px solid rgb(150, 143, 143) ;
+    margin-left: 290px;
+} 
+
+.txt-fld label {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.txt-fld input {
+    width: 630px;
+    height: 20px;
+}
+.txt-fld{
+  margin-top: -490px;
+  margin-left: 30px;
+}
+p{
+  margin-left: 440px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+
+}
+.lines{
+  margin-top: -30px;
+  margin-left: -60px;
+}
+.students{
+  margin-top: -20px;
+  margin-left: -60px;
+}
