@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './signup.css';
-// import upeoo from '../Images'
+import upeo from '../Images/upeo.png'
 
 function Signup () {
     const[firstName, setName]=useState("")
@@ -10,7 +10,6 @@ function Signup () {
     const[confirmPass, setConfirmPass]=useState("")
 
     function handleSubmit(){
-
 
 
         const data ={
@@ -24,50 +23,52 @@ function Signup () {
         console.log(data);
 
         alert(data);
-
-
     }
-
 
     return (
         <div className="bg">
             <div className="sub-bg">
-                <div className="sign-header">
 
-                    <h2>Sign Up to Upeo</h2>
-                </div>
+         <div className="form-bg">
+         <form className="form" onSubmit={handleSubmit}>
+             <div className="img">
+             <img src={upeo} alt='Images/upeo.png'/>
 
+             </div>
+          <div className="sign-header">
+          <h2>Sign Up to Upeo</h2>
 
+             </div>
 
-          <form className="form" onSubmit={handleSubmit}>
+             <div className="upeo">
 
-          <label for="name">First Name</label> <br/>
           <input type="text" required value={firstName} onChange={e => setName(e.target.value)} placeholder="Enter First Name"/> <br/>
 
-          <label for="name">Last Name</label> <br/>
-          <input type="text" required value={lastName} onChange={e => setLastName(e.target.value)} placeholder="Enter First Name"/> <br/>
+          <input type="text" required value={lastName} onChange={e => setLastName(e.target.value)} placeholder="Enter Last Name"/> <br/>
 
 
-          <label for="name">Email</label> <br/>
           <input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email"/> <br/>
 
 
-          <label for="name">Password</label> <br/>
           <input type="password" required value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter Password"/> <br/>
 
-          <label for="name">Confirm Password</label> <br/>
           <input type="password" required value={confirmPass} onChange={e => setConfirmPass(e.target.value)} placeholder="Confirm Password"/> <br/>
 
 
           <button className="btn" type="submit" >Continue</button>
+          <p>Already have account?
+           <a href="/">Login</a>
+          </p>
 
          
+             </div>
+
 
 
           </form>
-          <p>Already have account? 
-            <a href="/">Login</a>
-          </p>
+         </div>
+         
+          
           {/* <button className="btn">Cancel</button> */}
           
           {/* <img className="Upeo" src= {upeoo}/> */}

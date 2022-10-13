@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import upeo from '../Images/upeo.png'
 import './login.css';
 
 function Login () {
@@ -24,35 +25,30 @@ function Login () {
     return (
         <div className="bg">
             <div className="sub-bg">
-                <div className="sign-header">
+          <form className="forms" onSubmit={handleSubmit}>
+          <div className="image">
+             <img src={upeo} alt='Images/upeo.png'/>
+             </div>
+          <div className="sign-header">
 
-                    <h2>Login to Upeo</h2>
-                </div>
+           <h3>Manage all students</h3>
+           </div>
 
-
-
-          <form className="form" onSubmit={handleSubmit}>
-
-          <label for="name">Email</label> <br/>
           <input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder="Enter Your Email"/> <br/>
 
 
-          <label for="name">Password</label> <br/>
           <input type="password" required value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter Password"/> <br/>
 
-          <label for="name">Confirm Password</label> <br/>
           <input type="password" required value={confirmPass} onChange={e => setConfirmPass(e.target.value)} placeholder="Confirm Password"/> <br/>
 
 
           <button className="btn" type="submit" >Login</button>
-
-         
-
+          <p>Dont have an account? 
+            <a href="/signup">Signup up here</a>
+          </p>
 
           </form>
-          <p>Dont have an account? 
-            <a href="/">Login</a>
-          </p>
+         
           {/* <button className="btn">Cancel</button> */}
           
           {/* <img className="Upeo" src= {upeoo}/> */}

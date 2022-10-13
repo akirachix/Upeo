@@ -1,0 +1,76 @@
+ /* .form{
+    background-color: aqua;
+} */
+.bg{
+    width: 100%;
+    height: 100%;
+    
+
+  
+}
+.sub-bg{
+    /* margin-left: 28%; */
+    margin-top: -8%;
+    padding-top: 9%;
+}
+.sign-header{
+    font-size: 27px;
+    color: #fff;
+}
+input{
+    width: 64%;
+    border-radius: 20px;
+    border: none;
+    height: 37px;
+    padding-left: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #155AA0;
+
+}
+::placeholder{
+    color: #155AA0;
+
+}
+::placeholder :hover{
+    color: green;
+}
+.btn{
+    color: white;
+    background-color:#155AA0;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 23px;
+    width: 33%;
+    height: 45px;
+    margin-top: 3%;
+    margin-right: 1%;
+    /* margin-left: 8%; */
+
+}
+.form-bg{
+    display: flex;
+}
+.forms{
+    background-color: #0CC3DC;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    height:100% ;
+    padding-bottom: 150px;
+    /* padding: 20px; */
+    /* margin-left: 50px */
+    /* padding-left: 40px; */
+}
+.image img{
+    width: 120px;
+    margin-right: 900px;
+    margin-bottom: -18%;
+
+} 
+p{
+    padding: 5px;
+}
+
+
