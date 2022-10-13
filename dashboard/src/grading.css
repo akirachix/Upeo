@@ -1,0 +1,125 @@
+body{
+    width:90%;
+    text-align: center;
+    overflow-x: hidden;
+  }  
+  
+  .topnav a {
+      padding: 20px 20px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: -10px;
+      margin: 10px;
+  
+      
+    } 
+    .topnav a:hover {
+      background-color: #02C0DA;
+      color: black;
+    }
+    .topnav a.active {
+      background-color: #04AA6D;
+      /* color: white; */
+      color: black;
+    
+    }
+    .topnav a{
+      display: block;
+      margin-left: -50px;
+      /* padding: 25px; */
+      color: black;
+      
+    }
+    .topnav{
+      margin-left: 50px;
+      padding: 40px;
+    }
+
+.logo{
+  margin-right: -20px;
+}    
+
+.container {
+  margin: 170px;
+  background-color:#02C0DA;
+  border-radius: 10px;
+  padding: 50px;
+  height: 700px;
+  width: 1200px;
+  margin-left: 10px;
+
+}
+.inner-container{
+  background-color:white;
+  width: 250px;
+  height:800px;
+  margin-left: -50px;
+  margin-top: -50px;
+  border: 1px solid black;
+}
+
+.txt-fld label input {
+    display: flex;
+    margin: 30px;
+    border: 2px solid rgb(150, 143, 143) ;
+    margin-left: 290px;
+} 
+
+.txt-fld label {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.txt-fld input {
+    width: 830px;
+    height: 20px;
+}
+.txt-fld{
+  margin-top: -790px;
+  margin-left: 30px;
+}
+.txt-fld li{
+  /* margin-top: -790px; */
+  margin-left: 170px;
+  text-decoration: none
+  ;
+}
+p{
+  margin-left: 440px;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+
+}
+.lines{
+  margin-top: -10px;
+  margin-left: -60px;
+}
+.students{
+  margin-top: -5px;
+  margin-left: -60px;
+}
+.questions{
+    margin-left: -50px;
+}
+.grading{
+    margin-left: -50px;
+}
+.answers{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.lineone{
+  border-radius: 10px;
+}
+.cards{
+  display:flex;
+  margin:10px;
+  border:2px solid black;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 5%;
+  background-color: #02C0DA;
+
+
+}
