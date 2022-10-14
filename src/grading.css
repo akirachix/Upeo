@@ -1,0 +1,70 @@
+.App {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+table th, td  {
+  border: 1px solid;
+  padding: 50px;
+  margin-left: 10%;
+  border-collapse: collapse;
+  width: 100%;
+
+  
+}
+
+td{
+  color:rgb(6, 6, 7);
+  border: 1px solid rgb(22, 21, 21);
+  text-align: left;
+  padding: 5px;
+  font-size: 15px;
+
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  height: 40px;
+  margin-right: 15%;
+}
+
+th{
+  background-color:#0CC3DC
+
+  ;
+
+
+}
+tr{
+  color: white;
+  font-size: 18px;
+}
+
+
+#Upeo{
+  background-color: white;
+
+}
+#Upeo tr:nth-child(even){background-color: #ffff;}
+
+
+#Upeo  tr:hover {background-color: #63e0d6;}
+
+.head{
+margin-top: -45%;
+}
+.head h1{
+font-size: 20px;
+color: red;
+margin-top: -60%;
+margin-left: 70%;
+
+}
+.btn{
+  margin-top: 30%;
+  width: 90%;
+}
