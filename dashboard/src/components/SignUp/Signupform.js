@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './signup.css';
 import upeo from '../Images/upeo.png'
+import axios from "axios";
 
 function Signup () {
     const[firstName, setName]=useState("")
@@ -9,21 +10,28 @@ function Signup () {
     const[password, setPassword]=useState("")
     const[confirmPass, setConfirmPass]=useState("")
 
-    function handleSubmit(){
-
-
-        const data ={
-            firstName: firstName,
-            lastName: lastName,
-            email: email,
-            password: password,
-            confirmPass : confirmPass,
-
-        }
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+        const data = {
+          email,
+          password,
+          confirmPass,
+          lastName,
+          firstName,
+        };
         console.log(data);
 
-        alert(data);
-    }
+        await axios
+          .post("http://localhost:8000/api/Button/", data)
+          .then((res) => {
+            console.log(res);
+          });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
 
     return (
         <div className="bg">

@@ -1,25 +1,26 @@
 import React, { useState } from "react";
 import upeo from '../Images/upeo.png'
 import './login.css';
+import axios from 'axios'
 
-function Login () {
-    const[email, setEmail]=useState("")
-    const[password, setPassword]=useState("")
-    const[confirmPass, setConfirmPass]=useState("")
+function Login () {                          
+  const[email, setEmail]=useState("")
+  const[password, setPassword]=useState("")
+  const[confirmPass, setConfirmPass]=useState("")
 
-    function handleSubmit(){
-        const data ={
-            email: email,
-            password: password,
-            confirmPass : confirmPass,
-
-        }
-        console.log(data);
-
-        alert(data);
-
-
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(email, password, confirmPass);
+    try {
+      const res = await axios.post("http://127.0.0.1:8000/api/Button", {
+        email,
+        password,
+        confirmPass,
+      });
+    } catch (error) {
+      console.log(error);
     }
+  };
 
 
     return (
