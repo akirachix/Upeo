@@ -93,3 +93,4 @@ def index(request):
                 response += "1.View Phone Number\n 2.Know my capital City\n3.Exit"
 
         return HttpResponse(response)
+    return HttpResponse({"message": "this method requires a POST request"})
