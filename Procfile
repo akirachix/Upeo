@@ -1,0 +1,1 @@
+web: gunicorn upeo.wsgi --log-file -    
