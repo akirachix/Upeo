@@ -1,0 +1,50 @@
+body{
+    width:90%;
+    text-align: center;
+    overflow-x: hidden;
+    background-color:#1F2A40;
+  }
+  .Tables{
+    margin-top: 10%;
+  }
+  .all h3{
+    font-size: 40px;
+  
+  }
+.Tables td{
+      padding: 70px;
+    }
+    .all h3{
+      margin-left: -500px;
+    }
+    .all{
+      margin-left:120px;
+    } 
+    .widgetLgTr{
+      background-color:#0C82B84F;
+      color: white;
+      padding: 20%; 
+      
+    }
+    h3{
+      color: white;
+      
+    }
+    .widgetLgTr th{
+      background-color:blue;
+      font-size: 20px;
+      padding: 3%;
+     
+    }
+    .widgetLgTr td{
+      padding: 2%;
+    }
+
+    .Tables th{
+      margin-left: 20%;
+    }
+    .widgetLgTr th{
+       width: 20%; 
+    }
+    
+   
