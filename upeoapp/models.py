@@ -7,6 +7,8 @@ class Student(models.Model):
       admission_number = models.CharField(max_length=10,null=True)
       pin = models.IntegerField()
       
+      #added notification model
+      
 class Notification(models.Model):
       status = models.CharField(max_length = 6,null=True)
       STATUS_CHOICE = (
