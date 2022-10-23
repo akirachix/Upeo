@@ -5,7 +5,7 @@ class Student(models.Model):
       first_name = models.CharField(max_length=15,null=True)
       last_name = models.CharField(max_length=15,null=True)
       admission_number = models.CharField(max_length=10,null=True)
-      pin = models.IntegerField()
+      phone_number =
       
       #added notification model
       
