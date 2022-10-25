@@ -25,14 +25,14 @@ admin. site.register(Topic,TopicAdmin)
 
 
 class QuestionsAdmin(admin.ModelAdmin):
-    list_display = ('question', 'student','date','answers','topic',)
-    search_fields = ('question', 'student''date','answers','topic',)
+    list_display = ('question', 'student','date','topic',)
+    search_fields = ('question', 'student''date','topic',)
 admin. site.register(Questions,QuestionsAdmin)
 
 
 class AnswersAdmin(admin.ModelAdmin):
-    list_display = ('date', 'student','questions','topic',)
-    search_fields = ('date', 'student','questions','topic',)
+    list_display = ('date', 'student','questions','topic','correct_answer')
+    search_fields = ('date', 'student','questions','topic','correct_answer')
 admin. site.register(Answers,AnswersAdmin)
 
 class LoginAdmin(admin.ModelAdmin):
@@ -47,7 +47,7 @@ admin. site.register(Signup,SignupAdmin)
 
 
 class FormAdmin(admin.ModelAdmin):
-    list_display = ('form','questions','student','answers','topic')
-    search_fields = ('form','questions','student','answers','topic')
+    list_display = ('form','student',)
+    search_fields = ('form','student',)
 admin. site.register(Form,FormAdmin)
 

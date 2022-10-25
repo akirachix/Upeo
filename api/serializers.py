@@ -20,17 +20,17 @@ class TopicSerializer(serializers.ModelSerializer):
 class AnswersSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Answers
-        fields = ('date', 'student','questions','topic',)
+        fields = ('date', 'student','questions','topic','correct_answer')
 
 class QuestionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Questions
-        fields = ('question', 'student','date','answers','topic',)
+        fields = ('question', 'student','date','topic',)
         
 class FormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Form
-        fields = ('form','questions','student','answers','topic')
+        fields = ('form','student',)
         
 class LoginSerializer(serializers.ModelSerializer):
     class Meta:
