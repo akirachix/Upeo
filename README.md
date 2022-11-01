@@ -16,6 +16,6 @@ This project is a learning channel that is aimed to help the teenage girls who d
 
 We decided to use a USSD code where students will be able to access it offline due to low connectivity of internet in Northern Uganda and lack of access to smartphones by most students. The students  will dial a USSD code using their feature phones and will be able to access different questions on different subjects for revision and as well answer them where their answers will be reviewed and their score sent to help read more and understand what exactly is needed in a certain topic.
 
-**#Users of this system**
+**#Users of the system**
 
-This system will only be used by students.
+This system will only be used by dropout teenage girls.
