@@ -9,9 +9,9 @@ How Might we support pregnant teenage girls in Northern Uganda continue their ed
 
 ****#About Project****
 
-This project is a learning channel that is aimed to help the teenage girls who dropped out with revision questions while at home throughout their maternity period to help them keep track on different topics for example in mathematics. This will help most of the students to continue learning in that when they get back to school they do not start from scratch but assume that they have been learning as well and continue with the rest of the students without lagging behind .
+This Project is a learning channel that is aimed to help the teenage girls who dropped out with revision questions while at home throughout their maternity period to help them keep track on different topics for example in mathematics. This will help most of the students to continue learning in that when they get back to school they do not start from scratch but assume that they have been learning as well and continue with the rest of the Students without lagging behind .
 
-**#Objectives of our our Research**
+**#Objectives of our Research**
 
 
 We decided to use a USSD code where students will be able to access it offline due to low connectivity of internet in Northern Uganda and lack of access to smartphones by most students. The students  will dial a USSD code using their feature phones and will be able to access different questions on different subjects for revision and as well answer them where their answers will be reviewed and their score sent to help read more and understand what exactly is needed in a certain topic.
