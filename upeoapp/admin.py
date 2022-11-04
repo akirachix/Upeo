@@ -6,8 +6,8 @@ from .models import  Notification,Student,Login,Signup,Form,Topic,Questions,Answ
 # Register your models here.
 
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name', 'admission_number','phone_number')
-    search_fields = ('first_name', 'last_name','admission_number','phone_number')
+    list_display = ('phone_number',)
+    search_fields = ('phone_number',)
 admin. site.register(Student,StudentAdmin)
 
 
@@ -19,20 +19,20 @@ admin. site.register(Notification,NotificationAdmin)
 
 
 class TopicAdmin(admin.ModelAdmin):
-    list_display = ('title', 'questions','date','answers','student')
-    search_fields = ('title', 'questions''date','answers','student')
+    list_display = ('topic','date','student')
+    search_fields = ('topic','date','student')
 admin. site.register(Topic,TopicAdmin)
 
 
 class QuestionsAdmin(admin.ModelAdmin):
-    list_display = ('title', 'student','date','answers','topic')
-    search_fields = ('title', 'student''date','answers','topic')
+    list_display = ('question', 'student','date','topic',)
+    search_fields = ('question', 'student''date','topic',)
 admin. site.register(Questions,QuestionsAdmin)
 
 
 class AnswersAdmin(admin.ModelAdmin):
-    list_display = ('date', 'student','questions','topic','title')
-    search_fields = ('date', 'student','questions','topic','title')
+    list_display = ('date', 'student','questions','topic','correct_answer')
+    search_fields = ('date', 'student','questions','topic','correct_answer')
 admin. site.register(Answers,AnswersAdmin)
 
 class LoginAdmin(admin.ModelAdmin):
@@ -47,7 +47,7 @@ admin. site.register(Signup,SignupAdmin)
 
 
 class FormAdmin(admin.ModelAdmin):
-    list_display = ('form','questions','student','answers','topic')
-    search_fields = ('form','questions','student','answers','topic')
+    list_display = ('form','student',)
+    search_fields = ('form','student',)
 admin. site.register(Form,FormAdmin)
 

@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-q97@m($g^)1-=o=$facxxya_j&13qb(z(-iaf+sryax7vmhk=9
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '4447-197-232-143-191.in.ngrok.io',
+    '3c9c-197-232-143-191.in.ngrok.io',
     '127.0.0.1'
 ]
 
@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'ussdApp',
     'rest_framework',
     'api',
-    'drf_yasg'
+    'drf_yasg',
+    'sms'
 ]
 
 MIDDLEWARE = [

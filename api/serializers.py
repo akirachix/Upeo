@@ -4,8 +4,8 @@ from rest_framework import serializers
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Student
-        fields = ("first_name","last_name","admission_number","phone_number")
-        fields = ("first_name","last_name","admission_number","phone_number")
+        fields = ("phone_number",)
+        fields = ("phone_number",)
         
 class NotificationSerializer(serializers.ModelSerializer):
     class Meta:
@@ -15,22 +15,22 @@ class NotificationSerializer(serializers.ModelSerializer):
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Topic
-        fields = ('title', 'questions','date','answers','student')
+        fields = ('topic','date','student')
         
 class AnswersSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Answers
-        fields = ('date', 'student','questions','topic','title')
+        fields = ('date', 'student','questions','topic','correct_answer')
 
 class QuestionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Questions
-        fields = ('title', 'student','date','answers','topic')
+        fields = ('question', 'student','date','topic',)
         
 class FormSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Form
-        fields = ('form','questions','student','answers','topic')
+        fields = ('form','student',)
         
 class LoginSerializer(serializers.ModelSerializer):
     class Meta:
